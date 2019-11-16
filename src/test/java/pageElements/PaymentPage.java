@@ -1,4 +1,6 @@
 package pageElements;
 
-public class PaymentPage {
+import driver.Driver;
+
+public class PaymentPage extends Driver {
 }

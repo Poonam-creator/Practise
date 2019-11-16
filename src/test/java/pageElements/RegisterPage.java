@@ -1,4 +1,8 @@
 package pageElements;
 
-public class RegisterPage {
+import driver.Driver;
+import org.junit.Test;
+
+public class RegisterPage extends Driver {
+
 }

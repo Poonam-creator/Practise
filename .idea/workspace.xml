@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5d85ea-e84d-4545-9aa2-4da8991de544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/step_defination/SearchSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RegrationTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunCukesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/RandomNumberHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/driver/Drivermaneger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/BasketPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/BasketPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/PaymentPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/PaymentPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/ProductDescriptionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/ProductDescriptionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageElements/ResultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageElements/ResultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_defination/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_defination/SearchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/filter.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/filter.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PageObjectModelCurrys/Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +49,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -49,42 +63,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test">
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RunCukesTest">
+    <configuration name="RegrationTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PageObjectModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObjectModelCurrys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PageObjectModelCurrys" />
-      <option name="MAIN_CLASS_NAME" value="PageObjectModelCurrys.Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegrationTestSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.setup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RegrationTestSuite.addProductToBasketTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PageObjectModel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PageObjectModelCurrys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PageObjectModelCurrys" />
-      <option name="MAIN_CLASS_NAME" value="PageObjectModelCurrys.Test" />
-      <option name="METHOD_NAME" value="setup" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegrationTestSuite" />
+      <option name="METHOD_NAME" value="addProductToBasketTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegrationTestSuite.filterPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegrationTestSuite" />
+      <option name="METHOD_NAME" value="filterPriceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegrationTestSuite.selectDpartmentFromSuggetionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RegrationTestSuite" />
+      <option name="METHOD_NAME" value="selectDpartmentFromSuggetionsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunCukesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectModel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RunCukesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test" />
-        <item itemvalue="JUnit.Test.setup" />
+        <item itemvalue="JUnit.RunCukesTest" />
+        <item itemvalue="JUnit.RegrationTestSuite.selectDpartmentFromSuggetionsTest" />
+        <item itemvalue="JUnit.RegrationTestSuite.addProductToBasketTest" />
+        <item itemvalue="JUnit.RegrationTestSuite.filterPriceTest" />
+        <item itemvalue="JUnit.RegrationTestSuite" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
